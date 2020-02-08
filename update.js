@@ -2,6 +2,10 @@
 
 header('Content-type: text/plain; charset=utf8', true);
 
+function alertTest(){
+    alert("Danger");
+}
+
 function check_header($name, $value = false) {
     if(!isset($_SERVER[$name])) {
         return false;
